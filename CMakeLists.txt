@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EmergencyStopState.msg"
   "msg/Keypad.msg"
   "msg/LCDOutput.msg"
+  "msg/RelayBoardV2.msg"
   "msg/USBoard.msg"
   "msg/USBoardV2.msg"
   "msg/IOBoard.msg"
