@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/USBoard.msg"
   "msg/USBoardV2.msg"
   "msg/IOBoard.msg"
+  "msg/SafetyState.msg"
+  "msg/RelayBoardV3.msg"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
