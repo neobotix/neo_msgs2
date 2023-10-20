@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IOBoard.msg"
   "msg/SafetyState.msg"
   "msg/RelayBoardV3.msg"
+  "msg/KinematicsState.msg"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
