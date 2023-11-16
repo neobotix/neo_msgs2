@@ -5,7 +5,7 @@ string firmware_version				# firmware version
 
 float64 uptime						# time since last module restart / reconfig [usec]
 
-float32 ambient_temperature			# battery voltage [V]
+float32 ambient_temperature			# Ambient temperature inside the platform in [C].
 
 bool[4] relay_states 				# state for each relay on RelayBoardV3; True = Active; False = Inactive
 
