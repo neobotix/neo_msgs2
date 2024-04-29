@@ -17,4 +17,4 @@ bool key_switch_off_state 			# state of the key
 
 bool release_structure_state 		# state of the entire robot
 
-# led states will be given in the next release
+std_msgs/ColorRGBA led_state        # state of the LED
