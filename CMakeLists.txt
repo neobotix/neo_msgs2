@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/USBoard.msg"
   "msg/USBoardV2.msg"
   "msg/IOBoard.msg"
+  "msg/SafetyMode.msg"
   "msg/SafetyState.msg"
   "msg/RelayBoardV3.msg"
   "msg/KinematicsState.msg"
