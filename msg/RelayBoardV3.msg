@@ -18,3 +18,5 @@ bool key_switch_off_state 			# state of the key
 bool release_structure_state 		# state of the entire robot
 
 std_msgs/ColorRGBA led_state        # state of the LED
+
+string system_error                 # system errors
