@@ -19,4 +19,4 @@ bool release_structure_state 		# state of the entire robot
 
 std_msgs/ColorRGBA led_state        # state of the LED
 
-string system_error                 # system errors
+string[] system_error               # system errors
