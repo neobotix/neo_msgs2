@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LocalizationStatus.msg"
   "msg/PlatformInfo.msg"
   "msg/StringStamped.msg"
+  "msg/BoolStamped.msg"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
