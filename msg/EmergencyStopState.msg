@@ -10,5 +10,6 @@ int16 EMCONFIRMED = 2 		# emergency stop was confirmed system is reinitializing 
 bool emergency_button_stop	# true = emergency stop signal is issued by button pressed
 bool scanner_stop		# true = emergency stop signal is issued by scanner
 bool software_stop		# true = emergency stop signal issued by some ROS-node
+bool remote_emergency_stop	# true = emergency stop signal issued by remote
 int16 emergency_state		# state (including confimation by key-switch), values see above
 
