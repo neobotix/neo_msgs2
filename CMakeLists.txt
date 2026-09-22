@@ -26,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SafetyState.msg"
   "msg/RelayBoardV3.msg"
   "msg/KinematicsState.msg"
+  "msg/DockingStatus.msg"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
