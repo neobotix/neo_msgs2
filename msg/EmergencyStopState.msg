@@ -11,5 +11,6 @@ bool emergency_button_stop	# true = emergency stop signal is issued by button pr
 bool scanner_stop		# true = emergency stop signal is issued by scanner
 bool software_stop		# true = emergency stop signal issued by some ROS-node
 bool remote_emergency_stop	# true = emergency stop signal issued by remote
+bool arm_emergency_stop		# true = emergency stop signal issued by arm control panel
 int16 emergency_state		# state (including confimation by key-switch), values see above
 
